@@ -1,0 +1,110 @@
+.icons > ul 
+{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.icons > ul > li
+{
+    margin-left: 50px;
+}
+.content > p
+{
+    font-size: 20px;
+    width: 600px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 40px;
+} 
+.tab > button
+{
+    background-color: rgb(46, 71, 172);
+    padding: 10px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+.arrow
+{
+    display: flex;
+    color: white;
+    margin-top: 40px;
+    margin-left: 280px;
+}
+.image
+{
+    margin-left: 150px;
+    padding-top: 30px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .row1
+  {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  .row2
+  {
+    color: white;
+    display: flex;
+  }
+  .menu4
+  {
+    margin-left: 300px;
+  }
+  .menu4 > img
+  {
+    border: white solid;
+    margin-left: 10px;
+  }
+  .menu5
+  {
+    margin-left: 300px;
+  }
+  .menu6
+  {
+    color: white;
+    margin-left:570px;
+    margin-bottom: 40px;
+  }
+  .menu5 > img
+  {
+    border: white solid;
+    margin-right: 20px;
+  }
+  .menu6 > img
+  {
+    border: white solid;
+    
+  }
+  .menu1 > img
+  {
+    border: white solid;
+    margin-left: 20px;
+  }
+  .menu1
+  {
+    margin-left: 30px;
+  }
+  .menu3
+  {
+    margin-right: 50px;
+  }
+  .menu2 > img
+  {
+    border: white solid;
+  }
+  .menu3 > img
+  {
+    border: white solid;
+    margin-right: 30px;
+  }
+  .card-body
+  {
+   
+  }

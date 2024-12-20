@@ -1,0 +1,22 @@
+{% extends "theme.html" %}
+{% block content %}
+{% load static %}
+<div class="body" style="background-color: rgb(8, 30, 19);">
+<div class="main" style="display: flex;">
+    <div class="image">
+        <img src="{% static 'image/cup.jpg' %}" alt="" height="500px" width="500px">
+    </div>
+    <div class="content" style="color: white;font-size: 30px; margin-top: 80px;">
+        <h1 style="font-family:Leckerli One; margin-left: 170px; font-size: 50px;">"Rise and Grind <br> it's Coffee Time!"</h1>
+        <p>Kafai cafe is a cozy and inviting destination where customers can indulge in expertly crafted  coffee, delicious baked goods, and savory light bites in a warm and welcoming atmosphere.rich aromas to falvorful treats, Kafai cafe shop is the prefect spot to relax, socialize, and savor the moment.</p>
+        <div class="tab">
+            <button class="submit btn btn-primary"><a href="/book" style="color: white; text-decoration: none;">Reserve a table</a></button>
+            <button class="submit btn btn-primary"><a href="/about" style="color: white; text-decoration: none;">About More</a></button>
+        </div>
+        <div class="arrow">
+            <i class="fa-solid fa-angles-right"></i>
+            <i class="fa-solid fa-angles-right"></i>
+        </div>
+</div>
+</div>
+{% endblock %}

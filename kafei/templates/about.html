@@ -1,0 +1,23 @@
+{% extends "theme.html" %}
+{% block content %}
+{% load static %}
+<body style="background-color: black;">
+<div class="about">
+    <img src="{% static 'image/coffee1.jpg' %}" alt="" height="700px" width="100%" style="opacity: .8;">
+    <div class="centered">
+        <div class="head" style="color: white; font-size: 100px; margin-left: 350px; margin-top: 70px;">
+            <h1 style="margin-top: 100px;">ABOUT US</h1>
+            <hr style=" width: 200px;border-color: white;">
+        </div>
+        <div class="container" style="display: flex; color: white; margin-top: 100px;">
+        <div class="col-md-6">
+            <img src="{% static 'image/cafe.jpg' %}" alt=""  height="350px" width="350px" style="border: solid 2px white; margin-top: 30px;">
+        </div>
+        <div class="col-md-6" style="width: 500px; margin-top: -10px;">
+            <p>At Kafei Cafe, we're passionate about serving more than just great coffee-we're dedicated to creating a warm and welcoming community. Our story began with a simple idea:to bring people together over a shared love of coffee and conversation. Today, our cafe is a vibrant gathering place where friends and neighbors come to connect, relax, and enjoy expertly crafted coffee and delicious food. We're pround to be a part of this community, and we look forward  serving you!. We're committed to serving only the highest -quality coffee,food and drinks.We believe that cafes should be more than just a place to grab a coffee-they should be a hub for community and connection.we strive to reduce our enviourmental footprint and promote sustainable practices in our cafe and supply chain. we're dedicated to providing exceptional customer feels welcome and valued. our menu features a wide range of speciality coffee drinks, teas and delicous fppd ptions which includes Espersso-based coffee, herbal teas ,freshly baked pastries and sandwiches. our cafe is designed to be a cozy and inviting space, with comfortable seating, plenty of natural light, and warm decor. we have free Wi-Fi, cozy outdoor seating area, a selection of books,and live music performances.</p>
+        </div>
+        </div>
+    </div>    
+</div>
+</body>
+{% endblock %}
